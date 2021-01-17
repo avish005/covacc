@@ -2,12 +2,10 @@ COVACC is an ongoing project....
 
 ==========================================================================
 CODE CONTRIBUTORS - 
-<ul>
-  <li>Avinash Kumar</li>
-  <li>Avinash Kumar</li>
-  <li>Avinash Kumar</li>
- </ul>
-
-AVINASH KUMAR, KRATIKA SHARMA, SANYA GARG
+<ol>
+  <li>AVINASH KUMAR</li>
+  <li>KRATIKA SHARMA</li>
+  <li>SANYA GARG</li>
+ </ol>
 
 ==========================================================================
