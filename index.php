@@ -1,6 +1,6 @@
 <?php
-include('include/connection.inc.php');
-include('include/header.inc.php');
+require('include/connection.inc.php');
+require('include/header.inc.php');
 ?>
 
 <!--MAIN BODY-->
@@ -815,7 +815,9 @@ include('include/header.inc.php');
                             <div class="error-message"></div>
                             <div class="sent-message">Your message has been sent. Thank you!</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
                     </form>
                 </div>
 
@@ -828,4 +830,4 @@ include('include/header.inc.php');
 
 
 <!--END OF MAIN BODY-->
-<?php include('include/footer.inc.php'); ?>
+<?php require('include/footer.inc.php'); ?>
