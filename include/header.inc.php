@@ -28,12 +28,11 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Medicio - v2.1.0
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- MODAL -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
 </head>
 
 <body>
@@ -83,11 +82,86 @@
                   </ul>
                 </li> -->
           <li><a href="#contact">Contact</a></li>
-
+          <li><a href="#myLoginModal" class="trigger-btn" data-toggle="modal">Login</a></li>
+          <li><a href="#myRegisterModal" class="trigger-btn" data-toggle="modal">Register</a></li>
         </ul>
       </nav><!-- .nav-menu -->
-
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
-
+      <!--
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Login</span></a>
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Register</span></a>
+    -->
     </div>
   </header><!-- End Header -->
+
+  <!-- LOGIN Modal HTML -->
+  <div id="myLoginModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Member Login</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form action="/examples/actions/confirmation.php" method="post">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Email" required="required">
+            </div>
+            <div class="form-group">
+              <input type="password" class="form-control" placeholder="Password" required="required">
+            </div>
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-block btn-lg" value="Login">
+            </div>
+          </form>
+          <p class="hint-text"><a href="#">Forgot Password?</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- REGISTER Modal HTML -->
+  <div id="myRegisterModal" class="modal fade">
+    <div class="modal-dialog modal-login">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">New User</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        </div>
+        <div class="modal-body">
+          <form action="" method="post">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="fname" class="form-control" id="fname" placeholder="First Name">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="text" name="lname" class="form-control" id="lname" placeholder="Last Name">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Mobile" data-rule="maxlen:10" data-msg="Please enter correct Mobile Number">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="date" class="form-control" name="dob" id="dob" placeholder="DD/MM/YYY">
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="text" class="form-control" name="otp" id="otp" placeholder="Enter OTP">
+                <div class="validate"></div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input type="submit" class="btn btn-primary btn-block btn-lg" value="Register" disabled>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
