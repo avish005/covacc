@@ -15,8 +15,8 @@ require('include/header.inc.php');
             <!-- Slide 1 -->
             <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
                 <div class="container">
-                    <h2>Welcome to <span>Medicio</span></h2>
-                    <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
+                    <h2>Welcome to <span>Covacc</span></h2>
+                    <p>COVACC is an Indian Government website through which Indians citizens can register through this for Covid-19 vaccine without any problem.</p>
                     <a href="#about" class="btn-get-started scrollto">Read More</a>
                 </div>
             </div>
@@ -111,11 +111,11 @@ require('include/header.inc.php');
                 <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
                     <h3>WHO Guidelines are:</h3>
 
-                    <ul>
-                        <li><i class="icofont-check-circled"></i>Maintain Social distancing atleast 1-metre distance between yourself and others. </li>
+                    <ul style="justify-content: right;">
+                        <li><i class="icofont-check-circled"></i>Maintain Social distancing atleast 1-metre distance between yourself &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and others. </li>
                         <li><i class="icofont-check-circled"></i>Always wear a mask when you are outdoor.</li>
                         <li><i class="icofont-check-circled"></i>Wash your hands with soap for 2 min in the interval of 30 mins.</li>
-                        <li><i class="icofont-check-circled"></i>Stay home and self-isolate even if you have minor symptoms such as cough, headache, mild fever, until you recover.</li>
+                        <li><i class="icofont-check-circled"></i>Stay home and self-isolate even if you have minor symptoms such as &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;cough, headache, mild fever, until you recover.</li>
                         <li><i class="icofont-check-circled"></i>Carry a sanitizer bottle if you re going outside.</li>
                     </ul>
                 </div>
