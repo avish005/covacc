@@ -61,8 +61,7 @@
         <ul>
           <li class="active"><a href="index.php">Home</a></li>
           <li><a href="#about">About</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#departments">Departments</a></li>
+          <!-- <li><a href="#services">Services</a></li> -->
           <li><a href="#doctors">Doctors</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
                   <ul>

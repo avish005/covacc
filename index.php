@@ -229,6 +229,7 @@ require('include/header.inc.php');
     </section><!-- End Features Section -->
 
     <!-- ======= Services Section ======= -->
+    <!--
     <section id="services" class="services services">
         <div class="container" data-aos="fade-up">
 
@@ -271,7 +272,9 @@ require('include/header.inc.php');
             </div>
 
         </div>
-    </section><!-- End Services Section -->
+    </section>
+    -->
+    <!-- End Services Section -->
 
 
     <!-- ======= Testimonials Section ======= -->
