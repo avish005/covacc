@@ -55,7 +55,6 @@ require('include/header.inc.php');
 </section><!-- End Hero -->
 
 <main id="main">
-
     <!-- ======= Featured Services Section ======= -->
     <section id="featured-services" class="featured-services">
         <div class="container" data-aos="fade-up">
@@ -63,40 +62,37 @@ require('include/header.inc.php');
             <div class="row">
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-                        <div class="icon"><i class="icofont-heart-beat"></i></div>
-                        <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-                        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        <div class="icon"><i class="icofont-hand"></i></div>
+                        <p class="description">Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-                        <div class="icon"><i class="icofont-drug"></i></div>
-                        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-                        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        <div class="icon"><i class="icofont-eye-blocked"></i></div>
+                        <p class="description">Avoid touching your eyes, nose and mouth.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-                        <div class="icon"><i class="icofont-thermometer-alt"></i></div>
-                        <h4 class="title"><a href="">Magni Dolores</a></h4>
-                        <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        <div class="icon"><i class="icofont-racer"></i></div>
+                        <p class="description">Cover your mouth and nose with your bent elbow or tissue when you cough or sneeze.</p>
                     </div>
                 </div>
 
                 <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
                     <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-                        <div class="icon"><i class="icofont-dna-alt-1"></i></div>
-                        <h4 class="title"><a href="">Nemo Enim</a></h4>
-                        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        <div class="icon"><i class="icofont-look"></i></div>
+                        <p class="description">Clean and disinfect surfaces frequently especially those which are regularly touched, such as door handles, faucets and phone screens.</p>
                     </div>
                 </div>
 
             </div>
 
         </div>
-    </section><!-- End Featured Services Section -->
+    </section>
+    <!-- End Featured Services Section -->
 
 
     <!-- ======= About Us Section ======= -->
@@ -105,7 +101,7 @@ require('include/header.inc.php');
 
             <div class="section-title">
                 <h2>About Us</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <p>COVACC is an Indian Government website through which Indians citizens can register through this for Covid-19 vaccine without any problem.</p>
             </div>
 
             <div class="row">
@@ -113,26 +109,46 @@ require('include/header.inc.php');
                     <img src="assets/img/about.jpg" class="img-fluid" alt="">
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-                    <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                    <p class="font-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
-                    </p>
+                    <h3>WHO Guidelines are:</h3>
+
                     <ul>
-                        <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                        <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                        <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+                        <li><i class="icofont-check-circled"></i>Maintain Social distancing atleast 1-metre distance between yourself and others. </li>
+                        <li><i class="icofont-check-circled"></i>Always wear a mask when you are outdoor.</li>
+                        <li><i class="icofont-check-circled"></i>Wash your hands with soap for 2 min in the interval of 30 mins.</li>
+                        <li><i class="icofont-check-circled"></i>Stay home and self-isolate even if you have minor symptoms such as cough, headache, mild fever, until you recover.</li>
+                        <li><i class="icofont-check-circled"></i>Carry a sanitizer bottle if you re going outside.</li>
                     </ul>
-                    <p>
-                        Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum
-                    </p>
                 </div>
             </div>
 
         </div>
     </section><!-- End About Us Section -->
+
+    <!--How to wear a mask-->
+    <section id="features" class="features">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
+                    <div class="icon-box mt-5 mt-lg-0">
+                        <h2>How to wear a mask properly</h2><br>
+                        <i class="icofont-check-alt"></i>
+                        <p>Clean your hands before you put your mask on, as well as before and after you take it off, and after you touch it at any time.</p><br>
+                        <i class="icofont-check-alt"></i>
+                        <p>When you take off a mask, store it in a clean plastic bag, and every day either wash it if it’s a fabric mask, or dispose of a medical mask in a trash bin.</p><br>
+                        <i class="icofont-check-alt"></i>
+                        <p>Make sure it covers both your nose, mouth and chin.</p><br>
+                        <i class="icofont-check-alt"></i>
+                        <p>Don’t use masks with valves.</p>
+                    </div>
+                </div>
+                <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/wear_mask.jpg");' data-aos="zoom-in"></div>
+            </div>
+        </div>
+    </section>
+
+    <!--End of section-->
+
 
     <!-- ======= Counts Section ======= -->
     <section id="counts" class="counts">
@@ -142,19 +158,17 @@ require('include/header.inc.php');
 
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                     <div class="count-box">
-                        <i class="icofont-doctor-alt"></i>
-                        <span data-toggle="counter-up">85</span>
-                        <p><strong>Doctors</strong> consequuntur quae qui deca rode</p>
-                        <a href="#">Find out more &raquo;</a>
+                        <i class="icofont-group"></i>
+                        <span data-toggle="counter-up">1230</span>
+                        <p><strong>No. of Registration</strong> has been done till now.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                     <div class="count-box">
-                        <i class="icofont-patient-bed"></i>
-                        <span data-toggle="counter-up">18</span>
-                        <p><strong>Departments</strong> adipisci atque cum quia aut numquam delectus</p>
-                        <a href="#">Find out more &raquo;</a>
+                        <i class="icofont-injection-syringe"></i>
+                        <span data-toggle="counter-up">1200</span>
+                        <p><strong>No. of people</strong> has been vaccinated.</p>
                     </div>
                 </div>
 
@@ -162,17 +176,15 @@ require('include/header.inc.php');
                     <div class="count-box">
                         <i class="icofont-laboratory"></i>
                         <span data-toggle="counter-up">8</span>
-                        <p><strong>Research Lab</strong> aut commodi quaerat. Aliquam ratione</p>
-                        <a href="#">Find out more &raquo;</a>
+                        <p><strong>No. of people</strong> pending to be vaccinated.</p>
                     </div>
                 </div>
 
                 <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
                     <div class="count-box">
-                        <i class="icofont-award"></i>
+                        <i class="icofont-doctor-alt"></i>
                         <span data-toggle="counter-up">150</span>
-                        <p><strong>Awards</strong> rerum asperiores dolor molestiae doloribu</p>
-                        <a href="#">Find out more &raquo;</a>
+                        <p><strong>No. of doctors</strong></p>
                     </div>
                 </div>
 
@@ -181,6 +193,7 @@ require('include/header.inc.php');
         </div>
     </section><!-- End Counts Section -->
 
+
     <!-- ======= Features Section ======= -->
     <section id="features" class="features">
         <div class="container" data-aos="fade-up">
@@ -188,29 +201,30 @@ require('include/header.inc.php');
             <div class="row">
                 <div class="col-lg-6 order-2 order-lg-1" data-aos="fade-right">
                     <div class="icon-box mt-5 mt-lg-0">
-                        <i class="bx bx-receipt"></i>
-                        <h4>Est labore ad</h4>
-                        <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                        <h2>Different vaccines for Covid 19</h2><br>
+                        <i class="icofont-laboratory"></i>
+                        <h4> AstraZeneca-Oxford (Covishield)</h4>
+                        <p>It is made from a weakened version of a common cold virus (known as an adenovirus). It has been modified to look more like coronavirus - although it can't cause illness.</p>
                     </div>
                     <div class="icon-box mt-5">
-                        <i class="bx bx-cube-alt"></i>
-                        <h4>Harum esse qui</h4>
-                        <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                        <i class="icofont-laboratory"></i>
+                        <h4>Bharat Biotech (Covaxin)</h4>
+                        <p>The indigenous, inactivated vaccine is developed and manufactured in Bharat Biotech's BSL-3 (Bio-Safety Level 3) high containment facility.</p>
                     </div>
-                    <div class="icon-box mt-5">
-                        <i class="bx bx-images"></i>
-                        <h4>Aut occaecati</h4>
-                        <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                    </div>
-                    <div class="icon-box mt-5">
-                        <i class="bx bx-shield"></i>
-                        <h4>Beatae veritatis</h4>
-                        <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                    </div>
+                    <!--
+              <div class="icon-box mt-5">
+              <i class="bx bx-images"></i>
+              <h4>Aut occaecati</h4>
+              <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            </div>
+            <div class="icon-box mt-5">
+              <i class="bx bx-shield"></i>
+              <h4>Beatae veritatis</h4>
+              <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            </div>-->
                 </div>
                 <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");' data-aos="zoom-in"></div>
             </div>
-
         </div>
     </section><!-- End Features Section -->
 

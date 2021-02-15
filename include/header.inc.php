@@ -125,7 +125,7 @@
     <div class="modal-dialog modal-login">
       <div class="modal-content">
         <div class="modal-header">
-          <h4 class="modal-title">New User</h4>
+          <h4 class="modal-title">New User Registration</h4>
           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
         </div>
         <div class="modal-body">
@@ -144,7 +144,7 @@
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
-                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Mobile" data-rule="maxlen:10" data-msg="Please enter correct Mobile Number">
+                <input type="tel" class="form-control" name="phone" id="phone" placeholder="Mobile" maxlength="10" data-msg="Please enter correct Mobile Number">
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
